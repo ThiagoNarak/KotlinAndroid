@@ -1,7 +1,7 @@
 import com.sun.xml.internal.fastinfoset.util.StringArray
 
 fun main(args: Array<String>) {
-questao06()
+questao06_2()
 }
 
 fun questao06_2(){
@@ -16,6 +16,11 @@ fun questao06_2(){
 
         }
     }
+
+
+
+
+
     var menu:Int = 0;
     do{
         println("digite 1 para imprimir todos elementos")
@@ -33,6 +38,7 @@ fun questao06_2(){
                         }
                         println("")
                     }
+
                 }
                 2 -> {
 
@@ -75,18 +81,18 @@ fun questao06_2(){
 
 }
 fun questao06() {
-    var media : Double// criar vetor
-    val alunos = arrayOf( doubleArrayOf(1600.0,7.5,8.9,6.5)  //0
-                        , doubleArrayOf(1601.0,8.2,7.3,9.4)  //1
-                        , doubleArrayOf(1602.0,10.0,9.6,7.1) //2
-                        , doubleArrayOf(1603.0,6.8,7.5,8.1)  //3
-                        , doubleArrayOf(1604.0,8.8,7.4,9.2)  //4
-                        , doubleArrayOf(1605.0,8.3,7.9,9.0)  //5
-                        , doubleArrayOf(1606.0,7.2,8.7,9.8)  //6
-                        , doubleArrayOf(1607.0,8.3,7.7,8.9)  //7
-                        , doubleArrayOf(1608.0,7.8,7.0,9.0)  //8
-                        , doubleArrayOf(1609.0,8.0,7.0,9.0)) //9
-
+    var media = Array<Double>(10, { i -> 0.0 })
+    val alunos = arrayOf(doubleArrayOf(1600.0, 7.5, 8.9, 6.5)  //0
+                       , doubleArrayOf(1601.0, 8.2, 2.3, 9.4)  //1
+                       , doubleArrayOf(1602.0, 10.0, 9.6, 7.1) //2
+                       , doubleArrayOf(1603.0, 6.8, 7.5, 8.1)  //3
+                       , doubleArrayOf(1604.0, 8.8, 7.4, 9.2)  //4
+                       , doubleArrayOf(1605.0, 8.3, 7.9, 9.0)  //5
+                       , doubleArrayOf(1606.0, 7.2, 8.7, 9.8)  //6
+                       , doubleArrayOf(1607.0, 8.3, 7.7, 8.9)  //7
+                       , doubleArrayOf(1608.0, 7.8, 7.0, 9.0)  //8
+                       , doubleArrayOf(1609.0, 8.0, 7.0, 9.0)) //9
+    var situacao = Array<Array<String?>>(10) { arrayOfNulls(2) } //criar array2dString
 
 
     var menu: Int
@@ -94,9 +100,10 @@ fun questao06() {
     do {
         println("digite 1 para imprimir a tabela de nome e notas de alunos")
         println("digite 2 para construir um vetor com a media de cada aluno")
-        menu = readLine()?.toInt()?:0
-        when(menu){
-            1 -> {print("matricula \tnota1 \tnota2 \tnota3")
+        menu = readLine()?.toInt() ?: 0
+        when (menu) {
+            1 -> {
+                print("matricula \tnota1 \tnota2 \tnota3")
                 for (i in 0..9) {
                     println()
 
@@ -104,26 +111,40 @@ fun questao06() {
                         print("${alunos[i][j]}   \t")
 
                     }
-                }}
+                }
+            }
             2 -> {
                 println("matricula \tmedia")
                 for (i in 0..9) {
-
+                    media[i] = 0.0
                     for (j in 1..3) {
 
-                        media[i]+=alunos[i][j]
+                        media[i] += alunos[i][j]
                     }
                     print("${alunos[i][0]} \t    ")
-                    media[i] = media[i]/3
-                    println("${media[i]}" )
+                    media[i] = media[i] / 3
+                    println("${media[i]}")
+
                 }
             }
+            3 -> {
+                println("Matricula\t situação")
+                for (i in 0..9) {
+                    media[i] = 0.0
+                    for (j in 1..3){
+                        media[i] += alunos[i][j]
+                    }
+                    media[i] = media[i] / 3
 
+                    situacao[i][0] = alunos[i][0].toString()
+                    situacao[i][1] = if (media[i] >= 7) "aprovado" else "reprovado"
+                    println("${situacao[i][0]}\t ${situacao[i][1]}")
+                }
+
+            }
         }
     }while (menu!=0)
-
 }
-
 fun questao05(){
     val np1: Double
     val np2: Double
