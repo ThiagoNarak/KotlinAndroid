@@ -1,7 +1,7 @@
 import com.sun.xml.internal.fastinfoset.util.StringArray
 
 fun main(args: Array<String>) {
-questao06_2()
+questao06()
 }
 
 fun questao06_2(){
@@ -100,6 +100,7 @@ fun questao06() {
     do {
         println("digite 1 para imprimir a tabela de nome e notas de alunos")
         println("digite 2 para construir um vetor com a media de cada aluno")
+        println("digite 3 para mostrar os aprovados e reprovados")
         menu = readLine()?.toInt() ?: 0
         when (menu) {
             1 -> {
@@ -196,7 +197,7 @@ fun questao04(){
     var total = ((comp*lar*prof)/1000)
     println("digite o numero de peixes")
     peixes= (readLine()?.toInt() ?: 0)
-    if(peixes*litro > total*1000) println("aquario adequado") else println("aquario inadequado")
+    if(peixes*litro < total) println("aquario adequado") else println("aquario inadequado")
 
 
 }
