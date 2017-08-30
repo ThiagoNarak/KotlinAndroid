@@ -2,8 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fcd8458-8be9-4717-a9fc-d02d94b038a7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cliente.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Pessoa.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/atividadePratica2/ATM.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/atividadePratica2/Account.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/atividadePratica2/BalanceInquiry.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/atividadePratica2/BankDatabase.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/atividadePratica2/CashDispenser.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/atividadePratica2/Deposit.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/atividadePratica2/DepositSlot.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/atividadePratica2/Interface/Transaction.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/atividadePratica2/Keypad.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/atividadePratica2/Screen.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/atividadePratica2/Withdrawal.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aulaInterface/App.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aulaInterface/Banco.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aulaInterface/ContaCorrente.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aulaInterface/ContaPoupanca.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aulaInterface/Usuario.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jaba.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uml/ATM.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uml/Account.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uml/BalanceInquiry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uml/BankDatabase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uml/CashDispenser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uml/Deposit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uml/DepositSlot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uml/Keypad.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uml/Screen.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uml/Transaction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uml/Withdrawal.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainLista.kt" afterPath="$PROJECT_DIR$/src/MainLista.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +44,109 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainLista.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MainLista.kt">
+      <file leaf-file-name="Deposit.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/atividadePratica2/Deposit.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="102" column="64" lean-forward="false" selection-start-line="102" selection-start-column="64" selection-end-line="102" selection-end-column="64" />
+            <state relative-caret-position="171">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Account.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/atividadePratica2/Account.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!block;n#validatePin#0;n#!!block;n#Account#0" expanded="false" />
+                <element signature="n#!!block;n#getAvailableBalance#0;n#!!block;n#Account#0" expanded="false" />
+                <element signature="n#!!block;n#getTotalBalance#0;n#!!block;n#Account#0" expanded="false" />
+                <element signature="n#!!block;n#credit#0;n#!!block;n#Account#0" expanded="false" />
+                <element signature="n#!!block;n#debit#0;n#!!block;n#Account#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BalanceInquiry.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/atividadePratica2/BalanceInquiry.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ATM.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/atividadePratica2/ATM.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DepositSlot.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/atividadePratica2/DepositSlot.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Keypad.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/atividadePratica2/Keypad.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Screen.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/atividadePratica2/Screen.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="107" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Withdrawal.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/atividadePratica2/Withdrawal.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BankDatabase.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/atividadePratica2/BankDatabase.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="n#!!block;n#authenticateUser#0;n#!!block;n#BankDatabase#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CashDispenser.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/atividadePratica2/CashDispenser.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -31,7 +158,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -59,8 +189,36 @@
         <option value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar!/com/sun/xml/internal/fastinfoset/util/StringArray.class" />
         <option value="$PROJECT_DIR$/src/main.java" />
         <option value="$PROJECT_DIR$/src/main.kt" />
-        <option value="$PROJECT_DIR$/src/jaba.java" />
         <option value="$PROJECT_DIR$/src/MainLista.kt" />
+        <option value="$PROJECT_DIR$/src/POO/User.kt" />
+        <option value="$PROJECT_DIR$/src/POO/App.kt" />
+        <option value="$PROJECT_DIR$/src/aulaInterface/Foo.kt" />
+        <option value="$PROJECT_DIR$/src/aulaInterface/Conta.kt" />
+        <option value="$PROJECT_DIR$/src/aulaInterface/ContaCorrente.kt" />
+        <option value="$PROJECT_DIR$/src/aulaInterface/ContaPoupanca.kt" />
+        <option value="$PROJECT_DIR$/src/aulaInterface/ContaSalario.kt" />
+        <option value="$PROJECT_DIR$/src/jaba.java" />
+        <option value="$PROJECT_DIR$/src/jaba.kt" />
+        <option value="$PROJECT_DIR$/src/aulaInterface/App.kt" />
+        <option value="$PROJECT_DIR$/src/aulaInterface/Usuario.kt" />
+        <option value="$PROJECT_DIR$/src/aulaInterface/Banco.kt" />
+        <option value="$PROJECT_DIR$/src/atividadePratica2/Interface/Transaction.kt" />
+        <option value="$PROJECT_DIR$/src/atividadePratica2/CashDispenser.kt" />
+        <option value="$PROJECT_DIR$/src/atividadePratica2/Keypad.kt" />
+        <option value="$PROJECT_DIR$/src/Pessoa.java" />
+        <option value="$PROJECT_DIR$/src/atividadePratica2/DepositSlot.kt" />
+        <option value="$PROJECT_DIR$/src/uml/Deposit.java" />
+        <option value="$PROJECT_DIR$/src/uml/BalanceInquiry.java" />
+        <option value="$PROJECT_DIR$/src/uml/Keypad.java" />
+        <option value="$PROJECT_DIR$/src/uml/ATM.java" />
+        <option value="$PROJECT_DIR$/src/uml/Withdrawal.java" />
+        <option value="$PROJECT_DIR$/src/atividadePratica2/Account.kt" />
+        <option value="$PROJECT_DIR$/src/atividadePratica2/BalanceInquiry.kt" />
+        <option value="$PROJECT_DIR$/src/atividadePratica2/Deposit.kt" />
+        <option value="$PROJECT_DIR$/src/atividadePratica2/Withdrawal.kt" />
+        <option value="$PROJECT_DIR$/src/atividadePratica2/Screen.kt" />
+        <option value="$PROJECT_DIR$/src/atividadePratica2/ATM.kt" />
+        <option value="$PROJECT_DIR$/src/atividadePratica2/BankDatabase.kt" />
       </list>
     </option>
   </component>
@@ -70,10 +228,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="797" />
+    <option name="height" value="791" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -90,6 +251,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,13 +266,29 @@
               <item name="KotlinAndroid" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="KotlinAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KotlinAndroid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="atividadePratica2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KotlinAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KotlinAndroid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="atividadePratica2" type="462c0819:PsiDirectoryNode" />
+              <item name="Interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KotlinAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KotlinAndroid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="uml" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -120,7 +300,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="convert kotlin&#9;ACTION&#9;ConvertJavaToKotlin&#10;java to kotlin&#9;ACTION&#9;ConvertJavaToKotlin" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;uml://JAVA/uml.Deposit&#10;convert java to kotlin&#9;ACTION&#9;ConvertJavaToKotlin&#10;convert to kotlin&#9;null&#9;null&#10;convert kotlin&#9;ACTION&#9;ConvertJavaToKotlin&#10;java to kotlin&#9;ACTION&#9;ConvertJavaToKotlin" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -139,10 +319,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.MainListaKt">
+  <component name="RunManager" selected="Kotlin.POO.AppKt">
     <configuration name="MainListaKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="MainListaKt" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="KotlinAndroid" />
+      <envs />
+    </configuration>
+    <configuration name="POO.AppKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="POO.AppKt" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -270,16 +462,18 @@
       <module name="KotlinAndroid" />
       <envs />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Kotlin.MainListaKt" />
       <item index="1" class="java.lang.String" itemvalue="Kotlin.main" />
       <item index="2" class="java.lang.String" itemvalue="Application.jaba" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.POO.AppKt" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.MainListaKt" />
-        <item index="1" class="java.lang.String" itemvalue="Application.jaba" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.main" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.POO.AppKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.MainListaKt" />
+        <item index="2" class="java.lang.String" itemvalue="Application.jaba" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.main" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +497,14 @@
       <workItem from="1502904629543" duration="829000" />
       <workItem from="1502936118616" duration="1234000" />
       <workItem from="1502975668144" duration="124000" />
-      <workItem from="1502999175207" duration="1107000" />
+      <workItem from="1502999175207" duration="1204000" />
+      <workItem from="1503015100125" duration="4700000" />
+      <workItem from="1503446881298" duration="3221000" />
+      <workItem from="1503619031159" duration="3616000" />
+      <workItem from="1503939991782" duration="5090000" />
+      <workItem from="1504027138247" duration="4758000" />
+      <workItem from="1504044452980" duration="1118000" />
+      <workItem from="1504060172469" duration="871000" />
     </task>
     <task id="LOCAL-00001" summary="incializando pasta">
       <created>1502724528981</created>
@@ -333,73 +534,51 @@
       <option name="project" value="LOCAL" />
       <updated>1502975749573</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Questao06 ajuste final">
+      <created>1503002270445</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1503002270445</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19329000" />
+    <option name="totallyTimeSpent" value="42800000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="791" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23034483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40965518" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965517" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23194444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827586" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965517" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -438,26 +617,18 @@
     <MESSAGE value="Questao05" />
     <MESSAGE value="Questao06" />
     <MESSAGE value="Questao06 parte 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Questao06 parte 2" />
+    <MESSAGE value="Questao06 ajuste final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Questao06 ajuste final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MainLista.kt">
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Array.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jaba.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="304">
+          <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -465,23 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jaba.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainLista.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -496,14 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Array.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -511,15 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainLista.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -534,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -565,19 +701,393 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jaba.java">
+    <entry file="file://$PROJECT_DIR$/src/aulaInterface/Foo.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="57">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jaba.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aulaInterface/App.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aulaInterface/ContaPoupanca.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aulaInterface/ContaSalario.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aulaInterface/Conta.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aulaInterface/ContaCorrente.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aulaInterface/Usuario.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aulaInterface/Banco.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/POO/User.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="54" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/POO/App.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainLista.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="102" column="64" lean-forward="false" selection-start-line="102" selection-start-column="64" selection-end-line="102" selection-end-column="64" />
+        <state relative-caret-position="190">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/atividadePratica2/Interface/Transaction.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pessoa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/jb/mnfly2j53_bfg8pdwc0534zr0000gn/T/modules.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement />
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uml/Untitled" />
+    <entry file="file://$PROJECT_DIR$/src/uml/Deposit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uml/BalanceInquiry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uml/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uml/Keypad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uml/ATM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/uml.Deposit">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>uml.Deposit</OriginalElement>
+          <nodes>
+            <node x="749.0516666666666" y="103.0">uml.ATM</node>
+            <node x="0.0" y="289.0">uml.BankDatabase</node>
+            <node x="651.75" y="11.0">uml.CashDispenser</node>
+            <node x="206.68000000000006" y="0.0">uml.Transaction</node>
+            <node x="1181.75" y="11.0">uml.Account</node>
+            <node x="954.75" y="0.0">uml.Screen</node>
+            <node x="813.75" y="11.0">uml.DepositSlot</node>
+            <node x="535.75" y="11.0">uml.Keypad</node>
+            <node x="209.0" y="124.5">uml.Deposit</node>
+            <node x="418.0" y="102.0">uml.Withdrawal</node>
+            <node x="0.0" y="135.5">uml.BalanceInquiry</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="uml.Deposit" target="uml.Transaction">
+              <point x="0.0" y="-48.5" />
+              <point x="303.5" y="82.0" />
+              <point x="285.68000000000006" y="82.0" />
+              <point x="0.0" y="26.0" />
+            </edge>
+            <edge source="uml.Withdrawal" target="uml.Transaction">
+              <point x="-47.25" y="-71.0" />
+              <point x="465.25" y="82.0" />
+              <point x="338.3466666666667" y="82.0" />
+              <point x="52.66666666666663" y="26.0" />
+            </edge>
+            <edge source="uml.BalanceInquiry" target="uml.Transaction">
+              <point x="0.0" y="-37.5" />
+              <point x="94.5" y="82.0" />
+              <point x="233.01333333333343" y="82.0" />
+              <point x="-52.66666666666666" y="26.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9" x="257.0" y="223.0" />
+          <SelectedNodes>
+            <node>uml.Deposit</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uml/Withdrawal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/atividadePratica2/BalanceInquiry.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/atividadePratica2/CashDispenser.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/atividadePratica2/DepositSlot.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/atividadePratica2/Keypad.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/uml.Account">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>uml.Account</OriginalElement>
+          <nodes>
+            <node x="310.0" y="80.0">uml.ATM</node>
+            <node x="0.0" y="155.0">uml.BankDatabase</node>
+            <node x="0.0" y="0.0">uml.CashDispenser</node>
+            <node x="722.4649999999999" y="0.0">uml.Transaction</node>
+            <node x="415.0" y="0.0">uml.Account</node>
+            <node x="537.0" y="0.0">uml.Keypad</node>
+            <node x="162.0" y="0.0">uml.DepositSlot</node>
+            <node x="303.0" y="0.0">uml.Screen</node>
+            <node x="718.25" y="80.0">uml.Deposit</node>
+            <node x="579.25" y="80.0">uml.Withdrawal</node>
+            <node x="835.25" y="80.0">uml.BalanceInquiry</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="uml.Deposit" target="uml.Transaction">
+              <point x="0.0" y="-15.0" />
+              <point x="766.75" y="60.0" />
+              <point x="783.9649999999999" y="60.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="uml.Withdrawal" target="uml.Transaction">
+              <point x="29.75" y="-15.0" />
+              <point x="668.5" y="60.0" />
+              <point x="742.9649999999999" y="60.0" />
+              <point x="-41.0" y="15.0" />
+            </edge>
+            <edge source="uml.ATM" target="uml.Keypad">
+              <point x="31.200000000000003" y="-15.0" />
+              <point x="380.2" y="60.0" />
+              <point x="561.0" y="60.0" />
+              <point x="-24.0" y="15.0" />
+            </edge>
+            <edge source="uml.Withdrawal" target="uml.Keypad">
+              <point x="-29.75" y="-15.0" />
+              <point x="24.0" y="15.0" />
+            </edge>
+            <edge source="uml.ATM" target="uml.CashDispenser">
+              <point x="-31.200000000000003" y="-15.0" />
+              <point x="317.8" y="60.0" />
+              <point x="71.0" y="60.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="uml.ATM" target="uml.DepositSlot">
+              <point x="-15.600000000000001" y="-15.0" />
+              <point x="333.4" y="50.0" />
+              <point x="222.5" y="50.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="uml.ATM" target="uml.Screen">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="uml.BalanceInquiry" target="uml.Transaction">
+              <point x="0.0" y="-15.0" />
+              <point x="905.25" y="60.0" />
+              <point x="824.9649999999999" y="60.0" />
+              <point x="41.0" y="15.0" />
+            </edge>
+            <edge source="uml.ATM" target="uml.Account">
+              <point x="15.599999999999994" y="-15.0" />
+              <point x="364.6" y="50.0" />
+              <point x="466.0" y="50.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="442.0" y="147.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/atividadePratica2/Account.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#validatePin#0;n#!!block;n#Account#0" expanded="false" />
+            <element signature="n#!!block;n#getAvailableBalance#0;n#!!block;n#Account#0" expanded="false" />
+            <element signature="n#!!block;n#getTotalBalance#0;n#!!block;n#Account#0" expanded="false" />
+            <element signature="n#!!block;n#credit#0;n#!!block;n#Account#0" expanded="false" />
+            <element signature="n#!!block;n#debit#0;n#!!block;n#Account#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/atividadePratica2/Deposit.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/atividadePratica2/Withdrawal.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/atividadePratica2/Screen.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/atividadePratica2/ATM.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/atividadePratica2/BankDatabase.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!block;n#authenticateUser#0;n#!!block;n#BankDatabase#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
